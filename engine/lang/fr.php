@@ -46,7 +46,7 @@ return array(
 	// Translatins from sections editor (sections.php)
 
 		/* title */ 'Sections' => 'Sections',
-		/* column */ 'Title as displayed in main menu' => 'Titre affiché dans le menu principal',
+		/* column */ 'Title' => 'Titre',
 		/* column */ 'Type' => 'Type',
 		/* column */ 'Details' => 'Détails',
 		/* column */ 'Is published?' => 'Publié ?',

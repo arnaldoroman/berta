@@ -37,7 +37,8 @@ $topPanelHTML = BertaEditor::getTopPanelHTML('sections');
 			<div id="xSectionsEditor">
 				<div class="listHead">
 					<div class="csHandle">&nbsp;</div>
-					<div class="csTitle"><?php echo I18n::_('Title as displayed in main menu') ?></div>
+					<div class="csTitle"><?php echo I18n::_('Title') ?></div>
+					<div class="csSlug"><?php echo I18n::_('Slug') ?></div>
 					<div class="csBehaviour"><?php echo I18n::_('Type') ?></div>
 					<div class="csDetails"><?php echo I18n::_('Details') ?></div>
 					<div class="csPub"><?php echo I18n::_('Is published?') ?></div>
@@ -65,6 +66,7 @@ $topPanelHTML = BertaEditor::getTopPanelHTML('sections');
 					echo '<li class="xSection-' . $sN . '">';
 					echo '<div class="csHandle"><span class="handle"></span></div>';
 					echo '<div class="csTitle"><span class="' . $xEditSelectorSimple . ' xProperty-title xNoHTMLEntities xSection-' . $sN . ' xSectionField">' . (!empty($s['title']['value']) ? htmlspecialchars($s['title']['value']) : '') . '</span></div>';
+					echo '<div class="csSlug"><span class="' . $xEditSelectorSimple . ' xProperty-slug xNoHTMLEntities xSection-' . $sN . ' xSectionField">' . htmlspecialchars($sN) . '</span></div>';
 					echo '<div class="csBehaviour"><span class="' . $xEditSelectorSelectRC . ' xProperty-type xSection-' . $sN . ' xSectionField" x_options="' . $possibleTypes . '">' . htmlspecialchars($typeTitle) . '</span></div>';
 
 					echo '<div class="csDetails">';

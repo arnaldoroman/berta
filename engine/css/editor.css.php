@@ -1982,7 +1982,7 @@ body.xSettingsPageBody {
 	body.xSettingsPageBody #contentContainer {
 		margin-left: 0;
 		margin-right: auto;
-		width: 1010px;
+		width: 984px;
 	}
 
 	body.xSettingsPageBody a { color: #666; text-decoration: underline !important; }
@@ -2039,7 +2039,7 @@ body.xSettingsPageBody {
 
 	body.xSettingsPageBody div.entry {
 		clear: both;
-		width: 900px;
+		width: 942px;
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
@@ -2103,7 +2103,7 @@ body.xSettingsPageBody {
 
 
 	#xSectionsEditor {
-		width: 1010px;
+		width: 984px;
 		clear: both;
 	}
 
@@ -2135,9 +2135,18 @@ body.xSettingsPageBody {
 				margin-right: 10px;
 			}
 
+			#xSectionsEditor .listHead div.csHandle {
+				margin-right: 5px;
+			}
+
+			#xSectionsEditor .listHead div.csDelete {
+				margin-right: 0;
+			}
+
+
 		#xSectionsEditor ul>li:first-child { font-weight: bold; }
 
-		#xSectionsEditor .csHandle { width: 30px; }
+		#xSectionsEditor .csHandle { width: 18px; margin-right: 5px; }
 			#xSectionsEditor .csHandle .handle {
 				display: block;
 				width: 18px;
@@ -2146,14 +2155,15 @@ body.xSettingsPageBody {
 				cursor: move;
 			}
 			#xSectionsEditor ul.xSaving .csHandle .handle { visibility: hidden !important; }
-		#xSectionsEditor .csTitle { width: 200px; }
+		#xSectionsEditor .csTitle { width: 140px; }
+		#xSectionsEditor .csSlug { width: 140px; }
 		#xSectionsEditor .csBehaviour { width: 130px; }
-		#xSectionsEditor .csDetails { width: 380px; }
+		#xSectionsEditor .csDetails { width: 300px; }
 		#xSectionsEditor .csDetails .label { clear: both; width: 95px; margin-bottom: 5px; }
 		#xSectionsEditor .csDetails .value { margin-bottom: 5px; }
 		#xSectionsEditor .xProperty-marked_items_count { font-weight: bold; }
-		#xSectionsEditor .csPub { width: 100px; }
-		#xSectionsEditor .csDelete { width: 50px; text-align: right; }
+		#xSectionsEditor .csPub { width: 90px; }
+		#xSectionsEditor .csDelete { width: 50px; text-align: right; margin-right: 0;}
 			#xSectionsEditor .csDelete a { color: #f00; }
 			#xSectionsEditor ul.xSaving .csDelete a { visibility: hidden !important; }
 
@@ -2189,7 +2199,7 @@ body.xSettingsPageBody {
 
 
 	#xSeoEditor {
-		width: 1010px;
+		width: 984px;
 		clear: both;
 	}
 		#xSeoEditor ul {
@@ -2276,7 +2286,7 @@ body.xSettingsPageBody {
 			#xMultisiteEditor .csTitle { width: 200px; }
 			#xMultisiteEditor .csName { width: 380px; }
 			#xMultisiteEditor .csName input { width: 50% !important }
-			#xMultisiteEditor .csPub { width: 100px; }
+			#xMultisiteEditor .csPub { width: 90px; }
 			#xMultisiteEditor .csClone,
 			#xSectionsEditor .csClone { width: 50px; text-align: right; }
 			#xMultisiteEditor .csClone a,

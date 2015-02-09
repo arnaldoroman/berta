@@ -46,7 +46,7 @@ return array(
 	// Translatins from sections editor (sections.php)
 
 	/* title */ 'Sections' => 'Sadaļas',
-	/* column */ 'Title as displayed in main menu' => 'Nosaukums (galvenajā izvēlnē)',
+	/* column */ 'Title' => 'Nosaukums',
 	/* column */ 'Type' => 'Veids',
 	/* column */ 'Details' => 'Uzstādījumi',
 	/* column */ 'Is published?' => 'Publicēts?',
